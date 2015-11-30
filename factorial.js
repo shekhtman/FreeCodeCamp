@@ -1,4 +1,4 @@
-function factorialize(num) {
+function factorial(num) {
   var fact = 1;  
   for (i = num; i > 0; i--) {
     fact *= i;
@@ -6,4 +6,4 @@ function factorialize(num) {
   return fact;
 }
 
-factorialize(10);
+factorial(10);
